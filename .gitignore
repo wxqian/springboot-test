@@ -3,6 +3,6 @@
 .settings/
 target/
 bower_components/
-.idea
+.idea/
 springboot.iml
 myflower.iml
