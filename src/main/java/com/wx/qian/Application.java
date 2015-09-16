@@ -1,4 +1,4 @@
-package com.wx.qian.example;
+package com.wx.qian;
 
 import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;
