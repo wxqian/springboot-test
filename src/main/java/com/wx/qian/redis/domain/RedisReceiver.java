@@ -15,14 +15,14 @@ public class RedisReceiver {
 
     private static final Logger logger = LoggerFactory.getLogger(RedisReceiver.class);
 
-    private CountDownLatch countDownLatch;
-
-    public CountDownLatch getCountDownLatch() {
-        return countDownLatch;
-    }
+    private CountDownLatch countDownLatch = new CountDownLatch(1);
 
     public void receiveMessage(String message) {
         logger.info("message:" + message);
         countDownLatch.countDown();
+    }
+
+    public CountDownLatch getCountDownLatch() {
+        return countDownLatch;
     }
 }
