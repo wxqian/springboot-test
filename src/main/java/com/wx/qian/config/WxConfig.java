@@ -1,4 +1,4 @@
-package com.wx.qian.redis.config;
+package com.wx.qian.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

@@ -3,7 +3,7 @@ package com.wx.qian.oauth.weixin;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.wx.qian.common.utils.HttpClientUtil;
-import com.wx.qian.redis.config.WxConfig;
+import com.wx.qian.config.WxConfig;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.wx.qian.redis.config;
+package com.wx.qian.config;
 
 import com.wx.qian.redis.Event.RedisEventMessageListener;
 import com.wx.qian.redis.domain.RedisReceiver;
